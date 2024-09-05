@@ -1,29 +1,37 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #125d4e;
-    font-family: Arial, sans-serif;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #125d4e;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+#colorPicker{
+    margin-top: 5px;
+    
 }
 
-h1 {
-    margin-bottom: 20px;
+p{
+    margin:0px;
 }
-
 .controls {
-    margin-bottom: 10px;
+
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  
+  flex-wrap: wrap;
 }
 
 #drawCanvas {
-    border: 1px solid #000;
-    background-color: #fff;
-   
+  border: 1px solid #000;
+  background-color: #fff;
 }
 
-button {
-    margin-left: 10px;
-}
+

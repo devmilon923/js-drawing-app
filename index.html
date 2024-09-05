@@ -11,10 +11,17 @@
     <h1>Simple Draw App</h1>
     <div class="controls">
        
-      <span>Pick Color</span>  <input type="color" id="colorPicker" value="#000000"> <br>
-      <span>Pick line Width</span>  <input type="number" id="line" value="2">
-        <button id="resetButton">Reset</button>
-        <button id="saveButton">Save Image</button>
+     <div class="flex">
+        
+          <div>
+            <span>Pick line Width</span>  <input type="number" id="line" value="2">
+          </div>
+          <div>
+            <input type="color" id="colorPicker" value="#000000">  <span>Pick Color</span>  
+          </div>
+     </div>
+       <div> <button id="resetButton">Reset</button>
+        <button id="saveButton">Save Image</button></div>
     </div>
     <canvas id="drawCanvas"></canvas>
 
