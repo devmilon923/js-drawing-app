@@ -18,15 +18,18 @@ p{
     margin:0px;
 }
 .controls {
-
+background-color: #125d4e;
+overflow: hidden;
   padding: 10px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   align-items: center;
   justify-content: center;
   gap: 12px;
-  
+  position: absolute;
   flex-wrap: wrap;
+  top: 0;
+  left: 0;
 }
 
 #drawCanvas {
